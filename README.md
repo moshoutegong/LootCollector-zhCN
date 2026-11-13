@@ -1,4 +1,4 @@
-# LootCollector 简体中文版
+# LootCollector 1.06 简体中文版
 
 LootCollector 是 Skulltrail 制作的 Ascension 插件，用于在地图上查看、记录和分享世界宝藏与神秘卷轴的位置。此仓库包含 LootCollector 1.0.6 的简体中文版本和配套的初始数据库。
 
