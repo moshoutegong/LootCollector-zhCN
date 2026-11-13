@@ -25,4 +25,4 @@ Interface/AddOns/
 
 译文集中在 [LootCollector/locales/zhCN.lua](LootCollector/locales/zhCN.lua)，左边是英文原文，右边是简体中文。主插件默认加载这份词表，适用于使用 `enUS` 客户端的玩家。缺少译文时会显示原文。修改译文时请保留 `%s`、`%d`、`\n` 和颜色代码等格式标记。
 
-原插件作者为 **Skulltrail**，现有简体中文译文由 **黑猫** 汉化。原插件的贡献者与素材署名保留在插件文件中。
+原插件作者为 **Skulltrail**，现有简体中文译文由 **黑猫** 提供，**魔兽特工** 将译文整理为独立的 `locales/zhCN.lua` 词表，并接入插件加载流程。原插件的贡献者与素材署名保留在插件文件中。

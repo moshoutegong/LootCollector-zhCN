@@ -1,0 +1,53 @@
+## Interface: 30300
+## Title: |cffe5cc80LootCollector|r |cffe5cc80[1.0.6]|r
+## Title-zhCN: |cffFF4500[HM]|r[地图]LootCollector宝藏
+## Notes: LootCollector is a community-powered addon that helps players discover and share Worldforged and Mystic Scroll locations on Ascension Bronzebeard (CoA compatible). Designed by Skulltrail. |cffff7f00Sponsor:|r |cffffff00@ERitzman|r. |cffffffffContributors:|r |cffffff00Deidre, Rhenyra, Morty, Markosz, Bandit Tech, xan, Stilnight, Xurkon, Netherborne, Liakate, Jollyg|r. |cffffffffAlpha Collectors:|r |cffffff00Morty, Laya, Brokenheart, Mie, Rhen, Aaltrix, Insanestar, Harrydn, Blutact|r.
+## Notes-zhCN: 世界重铸装备收集器是一个社区驱动的插件，帮助玩家发现和分享Ascension Bronzebeard（CoA兼容）上的Worldforged和Mystic Scroll位置。设计由Skulltrail负责。
+## Author: Skulltrail，汉化：黑猫插件、魔兽特工
+## Contributors: Deidre, Rhenyra, Morty, Markosz, Bandit Tech, xan, Stilnight, Xurkon, Netherborne, Jollyg
+## Sponsors: @ERitzman
+## AlphaTopCollectors: Morty, Laya, Brokenheart, Mie, Rhen, Aaltrix, Insanestar, Harrydn, Blutact
+## Version: 1.0.6
+## SavedVariables: LootCollectorDB_Asc
+## OptionalDeps: Ace3, TomTom, AtlasLoot_Cache
+
+Bindings.xml
+
+# Load Libraries
+libs\XXH_Lua_Lib\XXH_Lua_Lib.lua
+
+LootCollector.lua
+
+#Core constants
+Modules\L10n.lua
+# Load Simplified Chinese by default, including on enUS clients.
+locales\zhCN.lua
+Modules\Constants.lua
+Modules\Scanner.lua
+Modules\WorldforgedList.lua
+Modules\WorldforgedUpgrades.lua
+Modules\CoordAuthority.lua
+
+# Data and resolution helpers early
+Modules\ZoneList.lua
+Modules\ZoneRelationships.lua
+
+# Core Logic
+Modules\Core.lua
+Modules\Detect.lua
+Modules\Reinforce.lua
+Modules\Decay.lua
+Modules\Comm.lua
+Modules\Moderation.lua
+Modules\DBSync.lua
+
+# Map/UI and behavior modules
+Modules\ProximityList.lua
+Modules\Map.lua
+Modules\Arrow.lua
+Modules\Settings.lua
+Modules\Toast.lua
+Modules\ImportExport.lua
+Modules\Viewer.lua
+Modules\MinimapButton.lua
+Modules\Tooltip.lua

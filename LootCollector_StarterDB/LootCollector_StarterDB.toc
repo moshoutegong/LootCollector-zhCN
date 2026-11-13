@@ -1,0 +1,11 @@
+## Interface: 30300
+## Title: LootCollector Starter DB
+## Title-zhCN: LootCollector 初始数据库
+## Notes: Contains the optional starter database for LootCollector.
+## Notes-zhCN: 为 LootCollector 提供可选的初始宝藏数据库。
+## Author: Skulltrail
+## Version: v6.7
+## LoadOnDemand: 1
+## Dependencies: LootCollector
+
+db.lua
